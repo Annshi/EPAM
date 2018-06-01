@@ -9,8 +9,8 @@
  * @author           Shiman Anna
  */
 public class Dragon {
-    public static final int FIRST_AGE_BORDER = 200;//вкючительно
-    public static final int SECOND_AGE_BORDER = 300;//вкючительно
+    public static final int FIRST_AGE_BORDER = 200;
+    public static final int SECOND_AGE_BORDER = 300;
     public static final int HEADS_BEFORE_200 = 3;
     public static final int HEADS_BETWEEN_200_300 = 2;
     public static final int HEADS_AFTER_300 = 1;
