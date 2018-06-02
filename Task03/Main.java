@@ -1,5 +1,4 @@
 /*
- * @(#)DataTypesTester.java 1.3 30/05/18
  * Copyright (c) 1994-1999 Sun Microsystems, Inc.
  * All Rights Reserved.
  */
