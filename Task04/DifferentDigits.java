@@ -9,25 +9,22 @@ public class DifferentDigits {
 
    public static int countDif_outerLoop(int number) {
        int res = 0;
-       int ch;
-       int d1;
        int saveNum = number;
        while (number != 0) {
-           d1 = number % 10;
+           int d1 = number % 10;
            number /= 10;
-           ch = 0;
+           int ch = 0;
            res+= countDif_innerLoop(saveNum, ch, d1);//counting amounts of unique digits in number
        }
        return res;
    }
 
        public static int countDif_innerLoop(int number, int ch, int d1){
-           int d2;
            int amount = 0;
            int dif = 0;
            while(number != 0){
                amount++; //counting amounts of digits
-               d2 = number % 10;
+               int d2 = number % 10;
                number /= 10;
                if (d1 != d2){
                    ch++; //counting non-repeating times for digit
