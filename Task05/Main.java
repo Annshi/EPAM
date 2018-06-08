@@ -9,7 +9,7 @@
 public class Main {
     public static void main(String args[]){
 
-        int[] array = new int[];
+        int[] array = new int[10];
         ArrayInitializer.initRandom(array, -10, 10);
         System.out.printf("Max number of array is %d", MaxMin.findMax(array));
         System.out.printf("\nMin number of array is %d", MaxMin.findMin(array));
