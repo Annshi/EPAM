@@ -1,5 +1,5 @@
 public class Reversion {
-    public static int[] makeReverse(int[] array) {
+    public static void makeReverse(int[] array) {
         if (array == null) {
             throw new NullPointerException();
         }
@@ -9,6 +9,5 @@ public class Reversion {
             array[array.length - 1 - i] ^= array[i];
             array[i] ^= array[array.length - 1 - i];
         }
-        return array;
     }
 }
