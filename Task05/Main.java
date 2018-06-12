@@ -15,7 +15,8 @@ public class Main {
         System.out.printf("\nMin number of array is %d", MaxMin.findMin(array));
         System.out.printf("\nIs array ordered? %b", OrderedArray.isOrdered(array));
         System.out.printf("\nFirst local min = %d", LocalMin.defineFirstLocalMin(array));
-        System.out.printf("\nMassive after reverse is ", Reverse.makeReverse(array));
+        Reverse.makeReverse(array);
+        System.out.printf("\nMassive after reverse is ", array);
         System.out.printf("\nAverage arithmetic is %f", ArithmGeom.calcAvgArith(array));
         System.out.printf("\nAverage geometric is %f", ArithmGeom.calcAvgGeom(array));
          for (int i : array) {
