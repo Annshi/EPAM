@@ -1,5 +1,5 @@
 public class TransposedMatrix {
-    public static int[][] transposeMatrix(int[][] matrix) {
+    public static void transposeMatrix(int[][] matrix) {
 
         for (int i = 0; i < matrix.length; i++) {
             for (int j = i; j < matrix[i].length; j++) {
@@ -8,6 +8,5 @@ public class TransposedMatrix {
                 matrix[i][j] ^= matrix[j][i];
             }
         }
-        return matrix;
     }
 }
